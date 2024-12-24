@@ -59,17 +59,6 @@ check_token() {
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
-
-  if [ "$USER_TOKEN" = "bangsano" ]; then
-    echo -e "${GREEN}AKSES BERHASIL${NC}}"
-  else
-    echo -e "${GREEN}Token Salah! Beli Kode Token Di BANG SANO${NC}"
-    echo -e "${YELLOW}WHATSAPP : +6289605983169${NC}"
-    echo -e "${YELLOW}TELEGRAM : t.me/batuofc${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}© SANO OFFICIAL${NC}"
-    exit 1
-  fi
   clear
 }
 
